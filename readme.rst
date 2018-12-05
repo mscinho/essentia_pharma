@@ -13,3 +13,5 @@ Instalação
 5°) Inicilizar o servidor apache e o banco de dados MySQL;
 
 6°) Acessar no browser com a seguinte url: http://localhost/essentia_pharma
+
+Atenção: A pasta do projeto tem que estar com o nome essentia_pharma dentro do diretório htdocs!
