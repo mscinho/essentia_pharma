@@ -1,0 +1,19 @@
+body { padding-top:30px; background-image: url("../img/fundo.jpg"); }
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .btn_top_add { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+.image-preview-input { position: relative; overflow: hidden; margin: 0px; color: #333; background-color: #fff; border-color: #ccc; }
+.image-preview-input input[type=file] { position: absolute; top: 0; right: 0; margin: 0; padding: 0; font-size: 20px; cursor: pointer; opacity: 0; filter: alpha(opacity=0); }
+.image-preview-input-title { margin-left:2px; }
+.erro { color: #FF0000; }
+.panel-default>.panel-heading { height: 50px;}
+.pagination > li > a, .pagination > li > span { float: none;}
+#busca  {  float: right; width: 53.33%;}
+#busca .form-control { width: 50%; }
