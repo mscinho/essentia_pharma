@@ -52,8 +52,13 @@ class Migration_add_client extends CI_Migration {
 
                     //populate
                     $data = array(
-                            array('nome' => "Márcio", 'email'=> "marcio.ti260@gmail.com", 'telefone'=>"(48) 99610-9057", 'imagem'=>"80.png"),
-                            array('nome' => "Márcio 2", 'email'=> "marcio.ti260@gmail.com2", 'telefone'=>"(48) 99610-9057", 'imagem'=>"80.png")
+                            array('nome' => "Márcio Soares", 'email'=> "marcio.ti260@gmail.com", 'telefone'=>"(48) 99610-9057", 'imagem'=>"teste1.png"),
+                            array('nome' => "Pedro", 'email'=> "pedro@teste.com", 'telefone'=>"(48) 95555-9956", 'imagem'=>"teste2.png"),
+                            array('nome' => "João", 'email'=> "joao@teste.com", 'telefone'=>"(48) 98852-8524", 'imagem'=>"teste3.png"),
+                            array('nome' => "Maria", 'email'=> "maria@teste.com", 'telefone'=>"(48) 85472-1111", 'imagem'=>"teste4.png"),
+                            array('nome' => "Joana", 'email'=> "joana@teste.com.br", 'telefone'=>"(48) 99999-4444", 'imagem'=>"teste5.png"),
+                            array('nome' => "Gabriel", 'email'=> "gabriel@teste.com.br", 'telefone'=>"(48) 95847-2210", 'imagem'=>"teste6.png"),
+                            array('nome' => "Ronaldo", 'email'=> "ronaldo@teste.com", 'telefone'=>"(48) 84256-5825", 'imagem'=>"teste7.png")
                     );
                     $this->db->insert_batch('clientes', $data);
 

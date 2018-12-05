@@ -22,6 +22,8 @@
     <!-- Toastr -->
     <link href="<?php echo base_url('assets/plugins/toastr/toastr.min.css'); ?>" rel="stylesheet">
     <script src="<?php echo base_url('assets/plugins/toastr/toastr.min.js'); ?>"></script>
+
+    <title>Clientes | Essentia Pharma</title>
 </head>
 
 <body>
@@ -48,7 +50,6 @@
 
                 <div class="panel-body">
                     <ul class="list-group">
-
                         <?php
                             foreach ($result as $rs) {
                                 echo '
@@ -59,7 +60,7 @@
                                             </div>
                                             <div class="col-xs-10 col-md-11">
                                                 <div>
-                                                    <a href="#">'.$rs->nome.'</a>
+                                                    <b>'.$rs->nome.'</b>
                                                     <div class="comment-text">'.$rs->telefone.'  |  '.$rs->email.'</div>
                                                 </div>
                                                 <div class="mic-info">Cadastrado em: '.date("d/m/Y", strtotime($rs->registro)).'</div>

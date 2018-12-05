@@ -50,30 +50,5 @@ class Cliente_Model extends CI_Model {
             return $this->db->get()->num_rows();
         }
     }
-    /*
-    public function get($table,$type='result',$fieldID=null,$id=null,$fieldOrder=null,$orderby=null,$limit=null,$offset=null) {
-        $this->db->from($table);
-        
-        if($fieldID)
-            $this->db->where($fieldID,$id);
-
-        if($fieldOrder)
-            $this->db->order_by($fieldOrder,$orderby);
-
-        if($limit)
-            $this->db->limit($limit);
-
-        if($offset)
-            $this->db->offset($offset);
-        
-        if($type == 'result') {
-            return $this->db->get()->result();
-        } elseif($type == 'num_rows') {
-            return $this->db->get()->num_rows();
-        } else {
-            return $this->db->get()->row();
-        }
-    }
-    */
 	
 }
